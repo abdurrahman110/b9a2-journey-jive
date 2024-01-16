@@ -111,7 +111,7 @@
 }
 
 .banner_container {
-  background: url("./assets/banner_img.png"),
+  background: url("https://i.ibb.co/BNJKVTq/banner-img.png"),
     linear-gradient(180deg, rgba(19, 19, 24, 0.8) 0%, rgba(19, 19, 24, 0) 100%);
 
   background-position: center;

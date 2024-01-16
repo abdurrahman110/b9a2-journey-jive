@@ -1,0 +1,105 @@
+/* Global Css */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  /* list-style-type: none; */
+  font-family: "Mulish", sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1190px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.orange {
+  color: #ff5400;
+}
+
+.title {
+  color: #131318;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 24px;
+}
+
+.sub_title {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 24px;
+}
+
+.mt-100 {
+  margin-top: 100px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* nav css */
+
+.nav_bar {
+  padding: 50px 0;
+}
+
+.nav_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo_container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+}
+
+.brand_name {
+  color: #131318;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.nav_menu {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 40px;
+  list-style-type: none;
+}
+
+.menu_item a {
+  color: #424247;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.menu_item .active {
+  color: #ff5400;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.nav_icon {
+  font-size: 24px;
+  display: none;
+}
+
+/* nav css */

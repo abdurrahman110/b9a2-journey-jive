@@ -103,3 +103,88 @@
 }
 
 /* nav css */
+
+
+/* Banner CSS */
+
+.banner {
+}
+
+.banner_container {
+  background: url("/assets/banner_img.png"),
+    linear-gradient(180deg, rgba(19, 19, 24, 0.8) 0%, rgba(19, 19, 24, 0) 100%);
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 105px 0;
+  background-blend-mode: multiply;
+  border-radius: 16px;
+}
+
+.banner_wrapper {
+  text-align: center;
+}
+
+.banner_wrapper {
+}
+
+.banner_title {
+  color: #fff;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 24px;
+}
+
+.banner_sub_title {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  max-width: 678px;
+  margin: 0 auto 48px;
+}
+
+.inquery_form {
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  align-items: center;
+}
+
+.input {
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.select_input {
+  color: rgba(19, 19, 24, 0.5);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.search_btn {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 8px;
+  background-color: #ff5400;
+  padding: 16px 34px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+/* Banner CSS */
